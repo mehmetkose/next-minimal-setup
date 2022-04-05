@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "author": "Jason Lengstorf <jason@lengstorf.com>",
   "license": "ISC",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "npm run build && next export",
+    "start": "next start"
+  },
   "dependencies": {
     "next": "^10.0.3",
     "react": "^17.0.1",
